@@ -8,15 +8,16 @@
 const output = document.getElementById('output-parola');
 
 // Non funziona...
-// const reversStr = (str) => str.split(' ').reverse().join(' ');
+const reversStr = (str) => str.split('').reverse().join('');
 
-function reversStr(str){
-  let reverseString = '';
+// Funzione estesa arrow function 
+// function reversStr(str){
+//   let reverseString = '';
 
-  reverseString = str.split('').reverse().join('') 
+//   reverseString = str.split('').reverse().join('') 
 
-  return reverseString;
-}
+//   return reverseString;
+// }
 
 console.log(reversStr('ciao'));
 
